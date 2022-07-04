@@ -4,7 +4,7 @@ Esse projeto foi desenvolvido para testar o Vite. Utilizei Vue.js por dentro do 
 
 # Link-service
 
-🤓👉 [Clique aqui para ver o projeto](social-networks-nine.vercel.app) 👈🤓
+🤓👉 Clique no link  para ver o projeto[social-networks-nine.vercel.app]👈🤓
 
 
 ## Project setup
