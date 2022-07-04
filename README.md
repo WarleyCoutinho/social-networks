@@ -33,6 +33,8 @@ vite build
 ```
 yarn lint
 ```
+### Projeto rondando na porta 3000
+Local: http://localhost:3000
 
 ### Customize configuration
 
