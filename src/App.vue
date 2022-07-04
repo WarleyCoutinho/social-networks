@@ -4,23 +4,25 @@ import Footer from './components/Footer.vue';
 </script>
 
 <script>
-import Dados from './Dados/Services.json';
+// import Dados from './Dados/Services.json';
 
 export default {
+  comments: { Item, Footer },
   data() {
     return {
       servicos: null,
     };
   },
   mounted() {
-    // let target =
-    //   'https://raw.githubusercontent.com/yurimarcon/link-services/main/src/Dados/Services.json';
+    let target =
+      'https://raw.githubusercontent.com/WarleyCoutinho/social-networks/main/src/Dados/Services.json';
 
-    // fetch(target)
-    //   .then((res) => res.json())
-    //   .then((res) => (this.servicos = res))
-    //   .catch((e) => console.log(e));
-    this.servicos = Dados;
+    fetch(target)
+      .then((res) => res.json())
+      .then((res) => (this.servicos = res))
+      .catch((e) => console.log(e));
+
+    // this.servicos = Dados;
   },
 };
 </script>
@@ -31,15 +33,10 @@ export default {
     style="width: 150px; border-radius: 50%"
     src="https://media-exp2.licdn.com/dms/image/C4D03AQFjK-3jk56Acw/profile-displayphoto-shrink_800_800/0/1631826529192?e=1662595200&v=beta&t=yWHpm0wzDlHmPiPWDxXJ8qwbQs-7i2ROlVigj-XKTEY"
   />
-  <!-- <img
-    alt="Profile"
-    style="width: 150px; border-radius: 50%"
-    src="./assets/warley.png"
-  /> -->
   <h1>Warley Coutinho</h1>
 
   <blockquote cite="Engenharia de Software">
-    <p>" JavaScript | Node.Js | Vue.Js |Vite.Js"</p>
+    <p>JavaScript | Node.Js | Vue.Js |Vite.Js</p>
     <h3><small> Dev Full Stack. </small></h3>
   </blockquote>
 
@@ -64,7 +61,7 @@ export default {
 }
 html {
   /* background: url('./assets/VitexVuejsc.png'); */
-  background: url('https://camo.githubusercontent.com/71982184b993bd0aa67c91afa29c03e9bc5a6b942ffa84473ce417534afbe358/68747470733a2f2f692e6962622e636f2f64346853636a762f62616e6e65722e706e67');
+  background: url('https://vuejsdevelopers.com/images/posts/versions/vite_vue_cli_1200.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
@@ -75,14 +72,14 @@ html {
   justify-content: center;
 }
 h1 {
-  color: hsl(0, 8%, 5%);
+  color: hsl(0, 0%, 100%);
 }
 h3 {
   font-weight: 900;
-  color: hsl(0, 8%, 5%);
+  color: hsl(83, 93%, 49%);
 }
 p {
-  color: hsl(0, 8%, 5%);
+  color: hsl(0, 0%, 100%);
   font-size: 18px;
 }
 </style>

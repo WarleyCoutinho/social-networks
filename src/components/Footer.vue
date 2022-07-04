@@ -22,7 +22,7 @@ footer {
 }
 
 strong {
-  color: hsl(153, 48%, 49%);
+  color: hsl(83, 93%, 49%);
   padding-right: 10px;
   font-size: 18px;
   font-weight: 900;
