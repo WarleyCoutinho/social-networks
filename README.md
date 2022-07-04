@@ -6,8 +6,7 @@ Esse projeto foi desenvolvido para testar o Vite. Utilizei Vue.js por dentro do 
 
 🤓👉 [Clique no link  para ver o projeto]
 
-(social-networks-nine.vercel.app)
-
+See [Configuration Reference](social-networks-nine.vercel.app).
 
 ## Project setup
 
