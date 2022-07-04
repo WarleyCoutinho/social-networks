@@ -12,12 +12,16 @@ yarn install
 
 ```
 yarn serve
+ou
+yarn dev
 ```
 
 ### Compiles and minifies for production
 
 ```
 yarn build
+ou
+vite build
 ```
 
 ### Lints and fixes files
