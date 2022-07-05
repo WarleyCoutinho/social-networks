@@ -1,7 +1,7 @@
 [
   {
     "titulo": "GitHub",
-    "img": "https://github.githubassets.com/images/modules/logos_page/Octocat.png",
+    "img": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
     "href": "https://github.com/WarleyCoutinho"
   },
   {
@@ -18,5 +18,10 @@
     "titulo": "Instagram",
     "img": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
     "href": "https://www.instagram.com/coutinhowarley/"
+  },
+  {
+    "titulo": "Whatsapp",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlWNMHX6faWZgVks3B42p4w0LU1nizBYJysQ&usqp=CAU",
+    "href": "https://api.whatsapp.com/send?phone=+5562992486492&text=Oi! Gostaria de fazer parte da sua red..."
   }
 ]

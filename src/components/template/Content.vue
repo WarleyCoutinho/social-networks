@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <a :href="item.href">
-      <img :src="item.img" alt="Icone do servico" />
+      <img :src="item.img" alt="Icon " />
     </a>
     <span>{{ item.titulo }}</span>
   </div>

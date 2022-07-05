@@ -1,13 +1,13 @@
 <script setup>
-import Item from './components/Item.vue';
-import Footer from './components/Footer.vue';
+import Content from './components/template/Content.vue';
+import Footer from './components/template/Footer.vue';
 </script>
 
 <script>
 // import Dados from './Dados/Services.json';
 
 export default {
-  comments: { Item, Footer },
+  comments: { Content, Footer },
   data() {
     return {
       servicos: null,
@@ -36,13 +36,17 @@ export default {
   <h1>Warley Coutinho</h1>
 
   <blockquote cite="Engenharia de Software">
-    <p>JavaScript | Node.Js | Vue.Js |Vite.Js</p>
+    <p>JavaScript | Node.Js | Vue.Js | Vite.Js</p>
     <h3><small> Dev Full Stack. </small></h3>
   </blockquote>
 
   <hr />
   <div class="items">
-    <Item v-for="(servico, index) in servicos" :key="index" :item="servico" />
+    <Content
+      v-for="(servico, index) in servicos"
+      :key="index"
+      :item="servico"
+    />
   </div>
 
   <Footer />

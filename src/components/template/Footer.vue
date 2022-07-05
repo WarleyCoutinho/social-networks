@@ -1,7 +1,7 @@
 <template>
   <footer>
     <span><strong class="strong"> Warley Coutinho</strong> </span
-    ><span class="ano">&copy; 2022</span>
+    ><span class="ano">&copy; 2022.</span>
   </footer>
 </template>
 
