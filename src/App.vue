@@ -31,7 +31,7 @@ export default {
   <img
     alt="Profile"
     style="width: 150px; border-radius: 50%"
-    src="https://media-exp2.licdn.com/dms/image/C4D03AQFjK-3jk56Acw/profile-displayphoto-shrink_800_800/0/1631826529192?e=1662595200&v=beta&t=yWHpm0wzDlHmPiPWDxXJ8qwbQs-7i2ROlVigj-XKTEY"
+    src="https://media-exp2.licdn.com/dms/image/C4D03AQHkbSg7bZHHMA/profile-displayphoto-shrink_800_800/0/1657027971428?e=1662595200&v=beta&t=bF5Yroqxvdw6U22a8acvqOh7IFGjOIfA69HqjIoa8x4"
   />
   <h1>Warley Coutinho</h1>
 
