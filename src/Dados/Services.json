@@ -1,23 +1,13 @@
 [
   {
-    "titulo": "GitHub",
-    "img": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-    "href": "https://github.com/WarleyCoutinho"
-  },
-  {
-    "titulo": "Facebook",
-    "img": "https://www.projetosupermed.com.br/wp-content/uploads/2019/09/facebook-icon-02.png",
-    "href": "https://web.facebook.com/Coutinho.Warley"
-  },
-  {
     "titulo": "Linkedin",
     "img": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
     "href": "https://www.linkedin.com/in/coutinho-warley/"
   },
   {
-    "titulo": "Instagram",
-    "img": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
-    "href": "https://www.instagram.com/coutinhowarley/"
+    "titulo": "GitHub",
+    "img": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+    "href": "https://github.com/WarleyCoutinho"
   },
   {
     "titulo": "Whatsapp",
