@@ -37,7 +37,7 @@ export default {
 
   <blockquote cite="Engenharia de Software">
     <p>JavaScript | Node.Js | Vue.Js | Vite.Js</p>
-    <h3><small> Dev Full Stack Engineer . </small></h3>
+    <h3><small> Dev Full Stack Engineer. </small></h3>
   </blockquote>
 
   <hr />
