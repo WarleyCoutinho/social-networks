@@ -20,26 +20,25 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 footer {
   width: 100%;
-  border-top: 1px solid rgb(207, 207, 207);
+  /*border-top: 1px solid hsl(0, 0%, 81%);*/
   height: 40px;
   padding-top: 20px;
-  background-color: honeydew;
   position: fixed;
   bottom: 0;
   font-weight: 900;
 }
 
-strong {
-  color: hsl(83, 93%, 49%);
+.strong {
+  color: hsl(0, 0%, 100%);
   padding-right: 10px;
   font-size: 18px;
   font-weight: 900;
 }
 .ano {
-  color: #314657;
+  color: rgb(243, 9, 9);
   font-size: 16px;
   padding-right: 10px;
 }
