@@ -80,7 +80,7 @@ h1 {
 }
 h3 {
   font-weight: 900;
-  color: hsl(83, 93%, 49%);
+  color: hsl(16, 91%, 65%);
 }
 p {
   color: hsl(0, 0%, 100%);
