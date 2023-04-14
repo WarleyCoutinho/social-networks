@@ -75,7 +75,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: hsl(210, 29%, 24%);
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 100px;
   min-height: calc(100vh - 120px);
 }
@@ -95,6 +95,7 @@ body {
   background-color: hsl(0, 0%, 16%);
   background-size: 16px 16px;
   overflow-x: hidden;
+
   min-height: 100%;
 }
 .items {

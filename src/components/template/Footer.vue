@@ -2,8 +2,8 @@
   <footer>
     <span><strong class="strong"> Warley Coutinho</strong> </span
     ><span class="ano"
-      >&copy; <strong class="strong">{{ currentYear }}</strong> Todos os
-      Direitos Reservados.</span
+      >&copy; <strong class="strong">{{ currentYear }}</strong> Direitos
+      Reservados.</span
     >
   </footer>
 </template>
@@ -26,7 +26,7 @@ footer {
   /*border-top: 1px solid hsl(0, 0%, 81%);*/
   margin-left: -12px;
   background: rgba(0, 0, 0, 0.3);
-  height: 40px;
+  height: 30px;
   padding-top: 20px;
   position: fixed;
   bottom: 0;
