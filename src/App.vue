@@ -11,7 +11,7 @@ export default {
   comments: { Content, Footer },
   data() {
     return {
-      hours: moment().format(' L HH:mm:ss'),
+      hours: '',
       servicos: null,
     };
   },
@@ -26,7 +26,7 @@ export default {
     //   .catch((e) => console.log(e));
 
     setInterval(() => {
-      this.hours = moment().format(' L HH:mm:ss');
+      this.hours = moment().format(' DD/MM/YYYY HH:mm:ss');
     }, 1000);
 
     this.servicos = Dados;
