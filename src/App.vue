@@ -31,7 +31,7 @@ export default {
   <img
     alt="Profile"
     style="width: 150px; border-radius: 50%"
-    src="./assets/warley.png"
+    src="./assets/wc.jpg"
   />
   <h1>Warley Coutinho</h1>
 
