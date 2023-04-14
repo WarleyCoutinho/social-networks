@@ -4,7 +4,7 @@ import Footer from './components/template/Footer.vue';
 </script>
 
 <script>
-// import Dados from './Dados/Services.json';
+import Dados from './Dados/Services.json';
 
 export default {
   comments: { Content, Footer },
@@ -14,15 +14,15 @@ export default {
     };
   },
   mounted() {
-    let target =
-      'https://raw.githubusercontent.com/WarleyCoutinho/social-networks/main/src/Dados/Services.json';
+    // let target =
+    //   'https://raw.githubusercontent.com/WarleyCoutinho/social-networks/main/src/Dados/Services.json';
 
-    fetch(target)
-      .then((res) => res.json())
-      .then((res) => (this.servicos = res))
-      .catch((e) => console.log(e));
+    // fetch(target)
+    //   .then((res) => res.json())
+    //   .then((res) => (this.servicos = res))
+    //   .catch((e) => console.log(e));
 
-    // this.servicos = Dados;
+    this.servicos = Dados;
   },
 };
 </script>
@@ -31,7 +31,7 @@ export default {
   <img
     alt="Profile"
     style="width: 150px; border-radius: 50%"
-    src="https://media-exp2.licdn.com/dms/image/C4D03AQHkbSg7bZHHMA/profile-displayphoto-shrink_800_800/0/1657027971428?e=1662595200&v=beta&t=bF5Yroqxvdw6U22a8acvqOh7IFGjOIfA69HqjIoa8x4"
+    src="./assets/warley.png"
   />
   <h1>Warley Coutinho</h1>
 
