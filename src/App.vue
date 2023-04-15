@@ -52,7 +52,7 @@ export default {
   </blockquote>
   <section>
     <span class="clock"
-      ><strong>Hoje:{{ hours }}</strong></span
+      ><strong>{{ hours }}</strong></span
     >
   </section>
 
